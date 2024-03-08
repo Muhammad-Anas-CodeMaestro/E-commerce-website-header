@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    height: 40px;
+    padding: 0px 60px;
+}
+
+.top-nav-left ul li, .top-nav-right ul li{
+    display: inline;
+}
+
+.top-nav-left ul li a, .top-nav-right ul li a{
+    text-decoration: none;
+    color:  #616060;
+    font-size: 15px;
+    margin: 0px 14px;
+}
+
+.top-nav-right ul li a{
+    margin: 0px 6px;
+}
+
+.middle-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.mid-nav-container ul li, .mid-nav-right-container ul li{
+    display: inline;
+}
+
+.mid-nav-container ul li a, .mid-nav-right-container ul li a{
+    text-decoration: none;
+    padding: 0px 12px;
+    font-size: 18px;
+    color: #5e5c5c;
+    font-weight: 550;
+}
+
+.mid-nav-container ul li a:hover, .mid-nav-right-container ul li a:hover{
+    color: rgb(206, 14, 14);
+}
+
+.middle-nav .logo h1{
+    font-size: 32px;
+    color: rgb(206, 14, 14);
+    font-weight: 800;
+}
+
+.middle-nav .logo h1 span{
+    font-size: 23px;
+    color: rgb(77, 76, 76);
+    font-weight: 800;
+}
+
+.bottom-nav{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.bottom-nav p{
+    font-size: 15px;
+    padding: 15px 0px;
+}
+
+.bottom-nav p a{
+    color: #e49449;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 15px;
+    font-weight: 600;
+}
